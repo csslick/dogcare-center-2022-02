@@ -83,7 +83,7 @@ header h1 {
   /* 배너 이미지 크기 */
   width: 1600px;
   height: 750px;
-  outline: 2px solid green;
+  /* outline: 2px solid green; */
   top: 0;
   /* 배너 중앙 배치 = 배너 너비 1/2 땡김 */
   left: calc(50% - 800px);
