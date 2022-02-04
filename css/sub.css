@@ -19,7 +19,7 @@
   float: left;
 }
 
-#sub2-1 > #main > .contents {
+#main > .contents {
   width: 895px;
   /* background: pink; */
   float: right;
@@ -119,4 +119,10 @@
 
 #sub2-1 > #main .contents-group .info-box .bottom-info {
   color: #666;
+}
+
+
+/* 오시는 길 5-1 */
+#sub5-1 #main .contact-info {
+  margin-bottom: 20px;
 }
