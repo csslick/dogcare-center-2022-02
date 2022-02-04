@@ -6,13 +6,13 @@ function changeVisual(num) {
   $('.slider > img').removeClass('on');
 
   if(num == 1) {
-    // 해당 이미지 켜주세요
+    $('.slider > img').eq(num - 1).addClass('on');
     $('.tab-group a').eq(num - 1).addClass('on');
   } else if(num == 2) {
-    // 해당 이미지 켜주세요
+    $('.slider > img').eq(num - 1).addClass('on');
     $('.tab-group a').eq(num - 1).addClass('on');
   } else if(num == 3) {
-    // 해당 이미지 켜주세요
+    $('.slider > img').eq(num - 1).addClass('on');
     $('.tab-group a').eq(num - 1).addClass('on');
   }   
 }
